@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {View, Text, FlatList, TouchableOpacity, Image} from 'react-native';
 import SearchBar from '../../components/searchBar/SearchBar';
 import {useNavigation} from '@react-navigation/native';
-import Button from '../../components/Button/Button';
+import Button from '../../components/button/Button';
 import axios from 'axios';
 
 import {styles} from './landingScreen-styles';

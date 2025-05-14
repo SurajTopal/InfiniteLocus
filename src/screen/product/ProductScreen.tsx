@@ -8,12 +8,12 @@ import {
   TextInput,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import Button from '../../components/Button/Button';
+import Button from '../../components/button/Button';
 import Toast from 'react-native-toast-message';
 import {Icon} from 'react-native-elements';
 
 import {styles} from './productScreen-styles';
-import { useAuth } from '../../auth-context';
+import {useAuth} from '../../auth-context';
 
 interface IProductScreen {
   route: {
@@ -39,7 +39,6 @@ export default function ProductScreen(props: IProductScreen) {
   const {productInCart, setProductInCart} = useAuth();
 
   const navigation = useNavigation<any>();
-
 
   const renderList = (list: string[]) => {
     return (

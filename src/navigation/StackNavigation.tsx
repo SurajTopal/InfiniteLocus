@@ -2,7 +2,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import LandingScreen from '../screen/landing/LandingScreen';
 import ProductScreen from '../screen/product/ProductScreen';
 import CartScreen from '../screen/cart/CartScreen';
-import Header from '../components/Header/Header';
+import Header from '../components/header/Header';
 const Stack = createNativeStackNavigator();
 
 const AppStack = () => {
